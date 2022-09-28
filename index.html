@@ -244,17 +244,17 @@ window.addEventListener("load", mediaSizer);
 
 
         function mediaSizer() {
-        // Determines the correct viz layout according to screen sizes.
+            // Determines the correct viz layout according to screen sizes.
             if (window.matchMedia("(max-width: 480px)").matches) {
                 //alert("I am a phone layout!");
                 devType = 'phone';
                 vWidth = 415;
-                vHeight = 2000;
+                vHeight = 950;
                 //options.device = 'phone';
             } else if (window.matchMedia("(max-width: 980px)").matches) {
                 //alert("I am a tablet layout!");
                 devType = 'tablet';
-                vWidth = 1600;
+                vWidth = 980;
                 //options.device = 'tablet';
             } else {
                 //alert("I am a desktop layout!");
